@@ -1,0 +1,69 @@
+* {
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: pink;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.group_cont {
+  width: 40%;
+  height: 90vh;
+  background-color: white;
+ color: red;
+}
+
+.group_cont h1 {
+  padding: 25px;
+  margin-left: 35%;
+}
+
+.group_cont ul li a {
+  text-decoration: none;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+      
+}
+.group_cont ul li a:hover {
+  color: red;
+}
+
+.group_cont ul li a img {
+  width: 40px;
+  border-radius: 100px;
+}
+.creategroupbtn{
+  background-color: aqua;
+  border-color: aqua;
+}
+.creategroupbtn:hover {
+  color: red;
+  background-color: pink;
+  border-color: pink;
+}
+#creategroupname {
+  background-color: pink;
+  border-color: aqua;
+}
